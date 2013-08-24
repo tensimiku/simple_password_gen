@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="97dp"
+        android:text="about this App" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="36dp"
+        android:text="made by" />
+
+    <Button
+        android:id="@+id/egbutton"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:scaleType="fitCenter"
+        android:background="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/egg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_below="@+id/egbutton"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/egg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/egg1"
+        android:layout_below="@+id/egg1"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/egg3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/egg2"
+        android:layout_below="@+id/egg2"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/egg4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/egg3"
+        android:layout_below="@+id/egg3"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/egg5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/egg4"
+        android:layout_below="@+id/egg4"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/egg6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/egg5"
+        android:layout_below="@+id/egg5"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/egbutton"
+        android:text="\@tensimiku / Kakakim"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
