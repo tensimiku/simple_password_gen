@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tensimiku.password"
+    package="com.tsmk.pass"
     android:versionCode="1"
-    android:versionName="1.0" android:installLocation="preferExternal">
+    android:versionName="1.0" >
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="17" />
+        android:targetSdkVersion="19" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppBaseTheme" >
+        android:theme="@style/AppTheme" >
         <activity
-            android:name="com.tensimiku.password.MainActivity"
-            android:label="@string/app_name" android:theme="@style/AppBaseTheme">
+            android:name="com.tsmk.pass.MainActivity"
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,10 +24,8 @@
         </activity>
         <activity 
             android:name="About"
-       	 	android:label="@string/app_name"
-        	android:theme="@style/AppBaseTheme" >
-            
-            ></activity>
+            android:label="@string/app_name">
+        </activity>
     </application>
 
 </manifest>
